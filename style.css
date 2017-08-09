@@ -1,0 +1,45 @@
+div.picture{
+    text-align: left;
+
+}
+div.par1{
+      position: absolute;
+      left: 0px;
+      width: 620px;
+      border: 3px;
+      padding: 10px;
+      top: 379px;
+      background-color:rgb(160, 216, 207);
+}
+div.part2{
+  position: absolute;
+  right: 0px;
+  width: 620px;
+  border: 3px ;
+  padding: 10px;
+  top: 379px;
+  background-color:rgb(109, 172, 162);
+
+}
+div.part4{
+  position: absolute;
+  width: 620px;
+  border: 3px ;
+  padding: 10px;
+  top: 550px;
+
+}
+div.part3{
+  position: absolute;
+  left: :0px;
+  width: 620px;
+  border: 3px ;
+  padding: 10px;
+  top: 550px;
+  background-color: rgb(177, 222, 214);
+
+}
+header{
+  text-align: right;
+    background-color: rgb(146, 196, 217);
+}
