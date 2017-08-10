@@ -78,14 +78,18 @@ if (A6 == 5) {
       counter++;
       alert('Your guess is too low');
       A6 = prompt('How many hours can I walk?');
-    }else if (2 < A6 && A6 < 4) {
+    }else if (2 < A6 && A6 < 5) {
       counter++;
-      alert('You are about to find out. You need to increase number');
+      alert('You are about to find out. ');
       A6 = prompt('How many hours can I walk?');
-    }else {
+    }else if(A6 > 6) {
       counter++;
-      alert('Your guess is too high');
       A6 = prompt('How many hours can I walk?');
+      alert('Your guess is too high. ');
+    }
+    else if (A6 == 5) {
+      counter++;
+      alert('Your answer is correct lets get\'s next question');
     }
   }
 }
