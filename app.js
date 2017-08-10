@@ -21,7 +21,7 @@ else{
 }
 
 var A2 = prompt('Do you think I like cats?');
- numOfQuestion++;
+numOfQuestion++;
 console.log(A2);
 if( A2.toUpperCase() == 'Y'){
   alert('No way! I think dogs are cuter then cats.');
