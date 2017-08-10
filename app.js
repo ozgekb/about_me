@@ -75,22 +75,18 @@ if (A6 == 5) {
   var counter = 0;
   while(counter < 4){
     if(A6 < 2){
-      counter++;
       alert('Your guess is too low');
-      A6 = prompt('How many hours can I walk?');
-    }else if (2 < A6 && A6 < 5) {
-      counter++;
-      alert('You are about to find out. ');
-      A6 = prompt('How many hours can I walk?');
-    }else if(A6 > 6) {
-      counter++;
-      A6 = prompt('How many hours can I walk?');
+    }else if (2 <= A6 && A6 < 5) {
+      alert('You are about to find out.');
+    }else if(A6 > 5) {
       alert('Your guess is too high. ');
     }
-    else if (A6 == 5) {
-      counter++;
+    else {
       alert('Your answer is correct lets get\'s next question');
+      break;
     }
+    A6 = prompt('How many hours can I walk?');
+    counter++;
   }
 }
 var A7 = prompt('Which countries I have been to?.Please enter your answer with lower case.');
