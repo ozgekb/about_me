@@ -1,6 +1,6 @@
-div.picture{
-    text-align: left;
-
+/*img.align.left{
+  float:left;
+  margin-right: 10px;
 }
 div.par1{
       position: absolute;
@@ -41,5 +41,7 @@ div.part3{
 }
 header{
   text-align: right;
+  right: 20px;
     background-color: rgb(146, 196, 217);
 }
+*/
