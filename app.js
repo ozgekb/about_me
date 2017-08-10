@@ -10,7 +10,7 @@ if(greeting === true){
 } else {
   alert('you should take this quiz! Come on :(');
 }
-/*
+
 var A1 = prompt('Do you think I like jazz music ?');
 console.log(A1);
 function question1(A1){
@@ -82,7 +82,7 @@ function question5(A5){
   return A5;
 }
 question5(A5);
-*/
+
 //-----------------------------adding questions six and seven----------------------------------------------------------------------------------------------------
 var A6 = prompt('How many hours can I walk?');
 function question6(A6){
