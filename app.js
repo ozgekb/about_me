@@ -4,11 +4,11 @@ var numOfQuestion = 0;
 var greeting = confirm ('Welcome to my website,before we start, we need to play gueesing name!\nGuess what! who will you try to gettig know:)');
 var questionPrompt = (' ');
 console.log(greeting);
-alert('you should take this quiz! Come on :(');
+alert('You should take this quiz! Come on :(');
 if(greeting === true){
   alert('let\'s go');
 } else {
-  alert('you should take this quiz! Come on :(');
+  alert('You should take this quiz! Come on :(');
 }
 
 var A1 = prompt('Do you think I like jazz music ?');
@@ -77,7 +77,7 @@ function question5(A5){
     correctAnswer++;
   }
   else {
-    alert('Wrong.  If I am an honest person (as noted in question 4) you should know I would not lie for my company!');
+    alert('Wrong.If I am an honest person (as noted in question 4) you should know I would not lie for my company!');
   }
   return A5;
 }
@@ -121,14 +121,14 @@ function question6(A6){
 }
 question6(A6);
 
-var A7 = prompt('Which countries I have been to?. Please enter your answer with lower case.');
+var A7 = prompt('Which countries I have been to?');
 function question7(A7) {
   numOfQuestion++;
   var myArray = ['ITALY','RUSSIA','UK','US','TURKEY'];
   var arrayContents = myArray.join(', ');
   var counter = 0;
   if(myArray.includes(A7.toUpperCase())) {
-    alert('countries that I have been to:  ' + arrayContents + '                          Your guess is corect! Let\'s get next question.');
+    alert('countries that I have been to:  ' + arrayContents + '                          Your guess is corect!');
     correctAnswer++;
   }else{
     while(counter < 5){
@@ -144,5 +144,5 @@ function question7(A7) {
   return A7;
 }
 question7(A7);
-alert('Congrats! You answered all questions about me. when you complete the game you will know more\nNow we will contunue with general questions!');
 alert('You have answered ' + correctAnswer + ' questions correctly out of ' + numOfQuestion + ' questions.');
+alert('Congrats! You have completed the game. You can check out the website to know me more.');
