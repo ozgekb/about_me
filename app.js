@@ -89,7 +89,7 @@ function question6(A6){
   numOfQuestion++;
   if(isNaN(A6)){
     alert('You should enter number!');
-    var A6 = prompt('How many hours can I walk?');
+    A6 = prompt('How many hours can I walk?');
   }
   if (A6 == 5) {
     alert('Your answer is correct! Let\'s go to the next question');
